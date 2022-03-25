@@ -1,0 +1,10 @@
+name: https://github.com/AnastasiaBrinati/demoMaven.git
+on: [push]
+jobs:
+  build-on-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: build
+        run: echo "Hello"
