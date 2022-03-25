@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
-        uses: actions/https://github.com/AnastasiaBrinati/demoMaven.git
+        uses: actions/checkout@v2
       - name: build
         run: |
           cmake -S . -B build/linux -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
@@ -14,8 +14,6 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Check out repository code
-        uses: actions/https://github.com/AnastasiaBrinati/demoMaven.git
+        uses: actions/checkout@v2
       - name: build
-        run: |
-          cmake -S . -B build/windows -G "Visual Studio 16 2019" -Ax64 -Thost=x64
-          cmake --build build/windows
+        run: echo "Hello"
