@@ -4,6 +4,7 @@ public class Libro {
     private String author;
     private int numberOfPages;
     private String publishingHouse;
+    //non va bene
 
     public String getTitle() {
         return title;
