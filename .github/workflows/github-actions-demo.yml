@@ -3,7 +3,7 @@ on:
   push:
     branches: [ AnastasiaBrinati-patch-1 ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 jobs:
   build-on-linux:
     runs-on: ubuntu-latest
