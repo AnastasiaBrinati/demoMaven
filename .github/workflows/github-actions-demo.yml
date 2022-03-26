@@ -1,7 +1,7 @@
 name: https://github.com/AnastasiaBrinati/demoMaven.git
 on:
   push:
-    branches: [ master ]
+    branches: [ demoMaven-patch-1 ]
   pull_request:
     branches: [ master ]
 jobs:
