@@ -1,5 +1,9 @@
 name: https://github.com/AnastasiaBrinati/demoMaven.git
-on: [push]
+on:
+  push:
+    branches: [ AnastasiaBrinati-patch-1 ]
+  pull_request:
+    branches: [ main ]
 jobs:
   build-on-linux:
     runs-on: ubuntu-latest
