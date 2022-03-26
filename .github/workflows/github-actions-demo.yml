@@ -1,10 +1,17 @@
 name: https://github.com/AnastasiaBrinati/demoMaven.git
 on: [push]
 jobs:
+  build-on-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: demo-build
+        run: echo "Hello Ubuntu"
   build-on-windows:
     runs-on: windows-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: demo-build
-        run: echo "Hello"
+        run: echo "Hello Windows"
