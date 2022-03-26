@@ -18,4 +18,6 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: demo-build
-        run: echo "Hello Windows"
+        run: |
+          echo "Hello Windows"
+          mvn package
