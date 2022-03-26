@@ -4,7 +4,6 @@ public class Libro {
     private String author;
     private int numberOfPages;
 
-
     public String getTitle() {
         return title;
     }
@@ -28,4 +27,5 @@ public class Libro {
     public void setNumberOfPages(int numberOfPages) {
         this.numberOfPages = numberOfPages;
     }
+
 }
