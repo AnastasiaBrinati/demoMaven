@@ -3,6 +3,7 @@ public class Libro {
     private String title;
     private String author;
     private int numberOfPages;
+    private String publishingHouse;
 
     public String getTitle() {
         return title;
