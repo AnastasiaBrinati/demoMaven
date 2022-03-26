@@ -29,4 +29,11 @@ public class Libro {
         this.numberOfPages = numberOfPages;
     }
 
+    public String getPublishingHouse() {
+        return publishingHouse;
+    }
+
+    public void setPublishingHouse(String publishingHouse) {
+        this.publishingHouse = publishingHouse;
+    }
 }
